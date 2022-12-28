@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ 
+.hero {
+  background-image: url(./images/soccer-player-man-human-person-sport.jpg);
+  background-size: cover; 
+}
+
+.nav-btn {
+  width: 40px;
+  height: 30px;
+}
+
+.bar {
+  margin: 0.3rem;
+  height: 2px;
+  background-color: black;
+}
+
+.one {
+  width: 80%;
+}
+
+.two {
+  width: 70%;
+}
+
+.three {
+  width: 60%;
+}
+
+.brandname {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+  transition: 500ms;
+}
+
+.brandname:hover {
+  text-decoration: overline;
+  color: darkgoldenrod;
+}
+
+.nav-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0%;
+  padding: 1.5rem;
+}
+
+nav h2 {
+  display: none;
+}
+
+/* .navbar {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  backdrop-filter: blur(3px);
+  height: 100vh;
+  z-index: 50;
+} */
+
+.list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  align-items: center;
+  padding: 1em;
+  justify-content: space-between;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  backdrop-filter: blur(3px);
+  height: 100vh;
+  z-index: 50;
+}
+
+.navlink {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 162px) {
+}
